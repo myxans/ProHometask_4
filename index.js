@@ -12,10 +12,6 @@ array1.forEach(
 );
 
 
-
-alert(' first number is ' + arr.at(0) + ', last number is ' + arr.at(-1));
-alert(arr.join(' + ') + ' = ' + summ);
-
 let max, min;
 
 if (arr[0] > arr[1] && arr[0] > arr[2]) {
@@ -35,7 +31,7 @@ if (arr[0] < arr[1] && arr[0] < arr[2]) {
     min = arr[2]
 };
 
-alert(' max is ' + max + ', min is ' + min);
+alert(`first number is ${arr.at(0)}, last number is ${arr.at(-1)} \n ${arr.join(' + ')} = ${summ} \n max is ${max}, min is ${min}`);
 
 let num = prompt('Please enter one of the numbers which you entered before?');
 
