@@ -41,13 +41,13 @@ let num = prompt('Please enter one of the numbers which you entered before?');
 
 switch (num) {
     case arr[0]:
-        alert(`Ваше число в списке ${arr.indexOf + 1}`);
+        alert(`Ваше число в списке # ${arr.indexOf + 1}`);
         break;
     case arr[1]:
-        alert(`Ваше число в списке ${arr.indexOf + 2}`);
+        alert(`Ваше число в списке # ${arr.indexOf + 2}`);
         break;
     case arr[2]:
-        alert(`Ваше число в списке ${arr.indexOf + 3}`);
+        alert(`Ваше число в списке # ${arr.indexOf + 3}`);
         break;
     default:
         alert('Sorry, you did not enter this number!')
