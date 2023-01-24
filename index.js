@@ -1,6 +1,10 @@
+let num1 = prompt('Вкажіть 1 число');
+let num2 = prompt('Вкажіть 2 число');
+let num3 = prompt('Вкажіть 3 число');
+
 let arr = [];
 
-arr.push(15, 10, 5);
+arr.push(num1, num2, num3);
 
 let summ = 0;
 const array1 = arr;
