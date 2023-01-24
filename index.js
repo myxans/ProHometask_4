@@ -39,12 +39,16 @@ alert(`first number is ${arr.at(0)}, last number is ${arr.at(-1)} \n ${arr.join(
 
 let num = prompt('Please enter one of the numbers which you entered before?');
 
-if (num == arr[0] ) {
-    alert('Ваше число под №1')
-} else if (num == arr[1]) {
-    alert('Ваше число под №2')
-} else if (num == arr[2]) {
-    alert('Ваше число под №3')
-}else {
-    alert('Sorry, you did not enter this number!')
-};
+switch (num) {
+    case arr[0]:
+        alert(`Ваше число в списке ${arr.indexOf + 1}`);
+        break;
+    case arr[1]:
+        alert(`Ваше число в списке ${arr.indexOf + 2}`);
+        break;
+    case arr[2]:
+        alert(`Ваше число в списке ${arr.indexOf + 3}`);
+        break;
+    default:
+        alert('Sorry, you did not enter this number!')
+}
